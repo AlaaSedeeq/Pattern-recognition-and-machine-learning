@@ -14,6 +14,12 @@
 <img src="results/cond_x2_dist.png">
 <img src="results/cm.png">
 
+#
+## Introduction
+The classification problem can be brocken down into two separate stages:
+  - The inference stage in which we use training data to learn a model for $P(C_{k}|x)$
+  - The decision stage in which we use these posterior probabilities to make optimal class assignments.
+
 We can identify three distinct approaches to solving decision problems, all of which have been used in practical applications. 
 ### (a) Generative Models
   - First solve the inference problem of determining the class-conditional densities $P(x|C_{k})$ for each class Ck individually. Also separately infer the prior class probabilities $P(C_{k})$. 
@@ -34,7 +40,3 @@ We can identify three distinct approaches to solving decision problems, all of w
 ### (c) Discriminant function
   - Find a function $f(x)$, which maps each input x directly onto a class label. For instance, in the case of two-class problems, $f(·)$ might be binary valued and such that $f = 0$ represents class $C_{1}$ and $f = 1$ represents class $C_{2}$. 
   - In this case, probabilities play no role.
-
-The classification problem can be brocken down into two separate stages:
-  - The inference stage in which we use training data to learn a model for $P(C_{k}|x)$
-  - The decision stage in which we use these posterior probabilities to make optimal class assignments.
