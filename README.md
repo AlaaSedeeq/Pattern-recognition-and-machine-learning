@@ -9,10 +9,10 @@
   - The problem is a binary classificaton problem.
   
  ## Results:<br>
-<img src="X_dist.png">
-<img src="cond_x1_dist.png">
-<img src="cond_x2_dist.png">
-<img src="cm.png">
+<img src="results/X_dist.png">
+<img src="results/cond_x1_dist.png">
+<img src="results/cond_x2_dist.png">
+<img src="results/cm.png">
 
 We can identify three distinct approaches to solving decision problems, all of which have been used in practical applications. 
 ### (a) Generative Models
