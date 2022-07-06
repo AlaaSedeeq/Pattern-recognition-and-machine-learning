@@ -2,7 +2,7 @@
 
 ## In this repository, I'll:
   - Implement a simple gaussian NB algorithm.
-  - Use the implementaion to fit a synthitic data.
+  - Use the implementaion to fit a synthetic data.
   
  ## Assumption:
   - The data is sampled from a Gaussian distribution.
