@@ -1,6 +1,6 @@
-# Probabilistic Learning
+# Naive Bayes
 
-## In this repository, I'll:
+## I'll:
   - Implement a simple gaussian NB algorithm.
   - Use the implementaion to fit a synthetic data.
   
