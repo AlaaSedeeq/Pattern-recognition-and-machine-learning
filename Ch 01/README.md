@@ -1,5 +1,4 @@
-### Chapter 1
-## Summary
+# Chapter 1 Summary
     
 <h4> <li>Marginal Probability (Sum Rule)</h4>
 <ul>
@@ -21,14 +20,14 @@
 <h4> The Gaussian distribution</h4>
 
 $$
-    \mathcal{N}(x | \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2\sigma^2}(x - \mu)^2}
+    \frac{1}{\sqrt{(2 \pi) \sigma^2}}\exp\left( -\frac{1}{2\sigma^{2}} (x - \mu)^2 \right)
 $$
 
 <br>
-<li><b>For D-dimensional $X$:</b>
+<li><b>For D-dimensional X:</b>
     
 $$
-    \mathcal{N}(x | \mu, {\sum}^{-1}) = \frac{1}{{(2\pi)}^{D/2}({\det(\sum)})^{1/2}}e^{-{1/2}{(x - \mu)^T\sum^{-1}(x - \mu)}}
+    \frac{1}{\sqrt{(2 \pi)^D \det \Sigma}}\exp\left( -\frac{1}{2} (x - \mu)^T \Sigma^{-1} (x - \mu) \right)
 $$
 
 <hr style="height:1px; background-color:black">
