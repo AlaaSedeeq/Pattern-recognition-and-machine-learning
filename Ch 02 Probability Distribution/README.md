@@ -3,7 +3,7 @@
 <h3>Density estimation</h3>
 
 It's unsupervised learninig aims to estimate a density given data from that distribution.<br>
-Given N observations ($i.i.d$) from $P(X)$, try to model the probability distribution $P(X)$.
+Given N observations $(i.i.d)$ from $P(X)$, try to model the probability distribution $P(X)$.
 <ul>
   <li> <b>Parametric density estimation</b> : 
       <ul>
@@ -70,20 +70,19 @@ Given N observations ($i.i.d$) from $P(X)$, try to model the probability distrib
 
 <h3>Gaussian Distributions</h3><br>
 <li> The sum of multiple random variables is gaussian.
-<li> The fractional dependence of gaussian on X through the mahalanobis distance: 
-    <br><br>$\quad\quad\Delta^2 = (X - \mu)^T\Sigma^{-1}(X - \mu)$<br><br>
-
-<li> For $N(X|\mu, \Sigma)$, $\;\; X = {X_{a}\choose X_{b}}$, $\;\;\mu = {\mu_{a}\choose \mu_{b}}$<b>:</b>
-    <ul>
-        <li> <b>1) The marginal distribution :</b><br><br>
+<li> The fractional dependence of gaussian on X through the mahalanobis distance: <br><br>
+    <p>$\quad\quad\Delta^2 = (X - \mu)^T\Sigma^{-1}(X - \mu)$<br><br>
+        <li> For $N(X|\mu, \Sigma)$, $\;\; X = {X_{a}\choose X_{b}}$, $\;\;\mu = {\mu_{a}\choose \mu_{b}}$<b>:</b>
             <ul>
-            <li>$P(X_{a}) = N(X_{a}|\mu_{a}, \Sigma_{aa}^{-1})$
-            </ul><br> 
-        <li> <b>2) The conditional distribution</b><br><br>
-        <ul>
-            <li>$P(X_{a}|X_{b}) = N(X_{a}|\mu_{a|b}, \; (\Sigma_{aa} - \Sigma_{ab}\Sigma_{bb}^{-1}\Sigma_{ba})^{-1})$
-        </ul><br>
-    </ul>
+                <li> <b>1) The marginal distribution :</b><br><br>
+                    <ul>
+                        <li>$P(X_{a}) = N(X_{a}|\mu_{a}, \Sigma_{aa}^{-1})$
+                    </ul><br> 
+                <li> <b>2) The conditional distribution</b><br><br>
+                    <ul>
+                        <li>$P(X_{a}|X_{b}) = N(X_{a}|\mu_{a|b}, \; (\Sigma_{aa} - \Sigma_{ab}\Sigma_{bb}^{-1}\Sigma_{ba})^{-1})$
+                    </ul><br>
+            </ul>
         
 <li> Bayesian inference:
     <ul>
@@ -94,18 +93,15 @@ Given N observations ($i.i.d$) from $P(X)$, try to model the probability distrib
     
 <hr style="height:2px;">
 <h3>Student's t distribution</h3><br>
-$$
-\begin{aligned}
+<p>$$\begin{aligned}
     p(x|\mu, a, b) &= \int_0^\infty \mathcal{N}\left(x |\mu, \tau^{-1}\right)\text{Gam}(\tau|a, b) \ d\tau \\
                    &= \frac{b^a}{\Gamma(a)}\left(\frac{1}{2\pi}\right)^{1/2}\left[b + \frac{(x - \mu)^2}{2}\right]^{-a - 1/2} \Gamma\left(a + \frac{1}{2}\right)
-\end{aligned}
-$$
+\end{aligned}$$
 
-
-$$
-    \text{St}(x\vert\mu,\lambda,v) = \frac{\Gamma\big((v + 1)/2\big)}{\Gamma(v/2)}\left(\frac{\lambda}{\pi v}\right)^{1/2}\left[1 + \frac{\lambda(x - \mu)^2}{v}\right]^{-(v + 1)/2}
+<p>$$\text{St}(x\vert\mu,\lambda,v) = \frac{\Gamma\big((v + 1)/2\big)}{\Gamma(v/2)}\left(\frac{\lambda}{\pi v}\right)^{1/2}\left[1 + \frac{\lambda(x - \mu)^2}{v}\right]^{-(v + 1)/2}
 $$<br>
-Where, $v = 2a$ is the degrees of freedom of the distribution, $\lambda = a/b$ is the precision of the distribution<br><br>
+
+<p>Where, $v = 2a$ is the degrees of freedom of the distribution, $\lambda = a/b$ is the precision of the distribution<br><br>
     
 <li> Can be defined as the marginal distribution of the unkown $\mu$ when the dependence on the unkown $\Sigma$ is marginalized out.
 <li> Can be interpreted as <b>infinite mixture of Gaussian</b>  
@@ -116,15 +112,11 @@ Where, $v = 2a$ is the degrees of freedom of the distribution, $\lambda = a/b$ i
 <li> Used to model some continuous r.v that Gaussian can't be used(e.g wind direction at some point).
 <li> To evaluate the mean of $D=\{\theta_{1},...,\theta_{N}\}$, $\theta$ id in radian
 
-$$
-    \bar \theta = \tan^{-1}\left(\frac{\sum_n \sin(\theta_n)}{\sum_n \sin(\theta_n)}\right)\\
-    \bar X = \frac{1}{N}\sum^NX_{n}
-$$
+<p>$$\bar \theta = \tan^{-1}\left(\frac{\sum_n \sin(\theta_n)}{\sum_n \sin(\theta_n)}\right)\\
+\bar X = \frac{1}{N}\sum^NX_{n}$$
     
 <li> The periodic generalization of Gaussian is von Mises:<br>
 
-$$
-    p(\theta|\theta_0, m) = \frac{1}{2\pi I_0(m)}\exp(m\cos(\theta - \theta_0))
-$$
+<p>$$p(\theta|\theta_0, m) = \frac{1}{2\pi I_0(m)}\exp(m\cos(\theta - \theta_0))$$
 
 Where $\theta_0$ is the mean, $m$ is the concentration parameter, $I_0(m)$ is the norm-coefficient which is the zeroth-order Bessel function.
