@@ -1,6 +1,6 @@
 # Chapter 1: Introduction (Summary)
 
-<img src="est.gif"></img><br>
+<img src="animation.gif"></img><br>
 
 <hr style="height:2px;">   
 
