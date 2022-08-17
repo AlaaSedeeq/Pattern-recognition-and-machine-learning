@@ -1,5 +1,7 @@
 # Chapter 1 Summary
-    
+
+<hr style="height:2px;">   
+
 <h4> <li>Marginal Probability (Sum Rule)</h4>
 <ul>
   <li> $P(X) = \sum_{y} P(Y|X) P(X) \;\;\;  (Discrete)$
@@ -14,23 +16,22 @@
 <br>
 <li> <b>Discrete variable</b> => Probability mass function (PMF)
 <li> <b>Continuous variable</b> => Probability density function (PDF)
-
-<hr style="height:1px; background-color:black">
+<hr style="height:2px;">   
 
 <h4> The Gaussian distribution</h4>
 
 $$
-    \frac{1}{\sqrt{(2 \pi) \sigma^2}}\exp\left( -\frac{1}{2\sigma^{2}} (x - \mu)^2 \right)
+    \mathcal{N}(x | \mu, \sigma^2) = \frac{1}{\sqrt{2\pi\sigma^2}}e^{-\frac{1}{2\sigma^2}(x - \mu)^2}
 $$
 
 <br>
 <li><b>For D-dimensional X:</b>
     
 $$
-    \frac{1}{\sqrt{(2 \pi)^D \det \Sigma}}\exp\left( -\frac{1}{2} (x - \mu)^T \Sigma^{-1} (x - \mu) \right)
+    \mathcal{N}(x | \mu, {\sum}^{-1}) = \frac{1}{{(2\pi)}^{D/2}({\det(\sum)})^{1/2}}e^{-{1/2}{(x - \mu)^T\sum^{-1}(x - \mu)}}
 $$
 
-<hr style="height:1px; background-color:black">
+<hr style="height:2px;">   
 
 <h4> MLE & MAP</h4><br>
 <li> In frequentist settings, w is considered to be fixed pararameters(unique), whose values is determined by some estimator.
@@ -70,8 +71,7 @@ $$
 </ul>
 </ul>
             
-<hr style="height:1px; background-color:black">
-
+<hr style="height:2px;">   
 
 <h4> Bayes' Theorem </h4><br>
     <li> It's just manipulating a conditional probability.
@@ -83,9 +83,9 @@ $$p(w | D) = \frac{p(D|w)p(w)}{p(D)}$$
     <li> $P(D | w)$ : The liklihood function, describes the effect of D on w, it tells how likely the observed data for different settings of w.    
     <li> $P(D)$ : The normalization constant, ensurs that the posterior distribution is a valid probability density. 
     <li> $P(w | D)$ : The posterior, reflects the probability of w after considering D. (the updated prior)   
-</ul>        
+</ul>      
 
-<hr style="height:1px; background-color:black">
+<hr style="height:2px;">   
 
 <h4>Learning from data</h4>
 
@@ -114,3 +114,5 @@ We have three main approaches to solve the decision problems:
             <li> Find some function $F(X)$ that maps from $X$ to $C_{k}$ or $y$ directly.
             <li> In this case, probabilities play no role.
         </ul>
+        </ul>
+<hr style="height:2px;">   
