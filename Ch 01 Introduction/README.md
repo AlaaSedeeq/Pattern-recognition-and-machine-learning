@@ -1,4 +1,4 @@
-# Chapter 1 Summary
+# Chapter 1: Introduction (Summary)
 
 <hr style="height:2px;">   
 
