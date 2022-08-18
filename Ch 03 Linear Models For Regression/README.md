@@ -6,7 +6,7 @@
 <li> Given $D = \{(X_{1}, t_{1}),..,(X_{N}, t_{N})\}$, predict the value of $t$ for a new value of $x$. This can be done by:
     <ul>
         <p> <b>1)</b> Simple function $F(X)$ maps directly to $y$.
-        <p> <b>2)</b> Probablistic perspective, where we model $P(t|X)$, it expresses our uncertainity about t for each value of x,              in such a way that minimize the expected value of loss function.
+        <p> <b>2)</b> Probablistic perspective, where we model $P(t|X)$, it expresses our uncertainity about t for each value of x, in such a way that minimize the expected value of loss function.
     </ul>
 <li> LM are limited with high dimensional inputs.
 
@@ -15,9 +15,7 @@
 <h3>Linear basis function models</h3><br>
 <li> Linear models are not restricted to be linear in in features vector X, they can be linear in a transformation of it.
 <li> Linear basis function models consider linear combinations of fixed <b>nonlinear</b> functions of the input variables.
-$$
-y(X, w) = w_{0} + \sum_{j=1}^{M-1} w_{j}\phi{j}
-$$<br>
+$$y(X, w) = w_{0} + \sum_{j=1}^{M-1} w_{j}\phi{j}$$<br>
 where, $\phi{j}$ is the basis function, $w_{0}$ is the bias.<br><br>
     
 <li><b>linear regression</b> is the simplest linear model:<br>
@@ -71,7 +69,7 @@ where the output y is a linear function of the parameters $W$, or the basis are 
     <p> $W^{\tau+1} = W^{\tau} - \eta \nabla E_{n}$
 </ul>    
 <li> Unlike batch techniques that process all data at once (e.g MLE), in sequential learning or on-line learning data are considered sample-by-sample.
-<li> The computation cost is less ($W_{ML} = (\Phi^T\Phi)^{-1}\Phi^Tt$ is very expensive).
+<li> The computation cost is less ( $W_{ML} = (\Phi^T\Phi)^{-1}\Phi^Tt$ is very expensive).
     
 <hr style="height:2px;">
 
@@ -91,7 +89,7 @@ where the output y is a linear function of the parameters $W$, or the basis are 
         <ul>
             <p> <b>1) Apparent error</b>, also called training error. That's what we minimize while training for each training data set.
                 <ul>
-                    <p> $ \bar{err} = \frac{1}{N_{train}}\sum_{i\in D_{train}}(\hat y_{i} - y_{i})^2 = \frac{1}{N_{train}} \hat\epsilon^T\hat\epsilon = \frac{1}{N_{train}}||\epsilon||_{2}^2$
+                    <p> $\bar{err} = \frac{1}{N_{train}}\sum_{i\in D_{train}}(\hat y_{i} - y_{i})^2 = \frac{1}{N_{train}} \hat\epsilon^T\hat\epsilon = \frac{1}{N_{train}}||\epsilon||_{2}^2$
                 </ul><br>
             <p> <b>2) Conditional error</b>, (conditioned on the training data set). That's what we really want to minimize.
                 <ul>
