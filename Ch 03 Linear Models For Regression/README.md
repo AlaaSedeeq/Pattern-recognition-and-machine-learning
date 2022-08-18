@@ -21,9 +21,7 @@ $$<br>
 where, $\phi{j}$ is the basis function, $w_{0}$ is the bias.<br><br>
     
 <li><b>linear regression</b> is the simplest linear model:<br>
-$$
-y(X, w) = w_{0} + w_{1}X_{1} +...+ w_{D}X_{D}
-$$<br>
+$$y(X, w) = w_{0} + w_{1}X_{1} +...+ w_{D}X_{D}$$<br>
     
 where the output y is a linear function of the parameters $W$, or the basis are identity.
 <hr style="height:2px;">
