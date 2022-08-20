@@ -9,7 +9,10 @@
 </p>
 
 <h2>Sequential learning</h2>
-<img width="100%" height="50%" src="Results\sequential_training_animation.gif" />
+<img width="50%" height="50%" src="Results\sequential_training_animation.gif" />
+
+<h2>MLE vs. MAP</h2>
+<img width="50%" height="50%" src="Results\MLE vs MAP.png" />
 
 <h2>Least-Squares for linear regression</h2>
 <img width="100%" src="Results\OLS.png" />
