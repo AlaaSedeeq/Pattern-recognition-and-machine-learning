@@ -8,4 +8,4 @@ Used packages:
   - [pyro](http://pyro.ai/)
   
   
-<img src="Ch 03 Linear Models For Regression/B_var.jpg"></img><br>
+<img src="Ch 03 Linear Models For Regression/Results/B_var.jpg"></img><br>
