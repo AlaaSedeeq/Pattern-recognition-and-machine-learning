@@ -1,12 +1,15 @@
 # Chapter 3: Linear Models For Regression 
 
-<h3>Applying different basis functions</h3>
+<h2>Applying different basis functions</h2>
 </p>
 <p align="center">
-  <img width="33%" src="ploy_animation.gif" />
-  <img width="33%" src="gauss_animation.gif" />
-  <img width="33%" src="sig_animation.gif" />
+  <img width="33%" src="Results\ploy_animation.gif" />
+  <img width="33%" src="Results\gauss_animation.gif" />
+  <img width="33%" src="Results\sig_animation.gif" />
 </p>
 
-<h3>Least-Squares for linear regression</h3>
-<img width="100%" src="OLS.png" />
+<h2>Sequential learning</h2>
+<img width="100%" src="Results\seq_training_animation.gif" />
+
+<h2>Least-Squares for linear regression</h2>
+<img width="100%" src="Results\OLS.png" />
