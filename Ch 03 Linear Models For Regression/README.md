@@ -9,7 +9,7 @@
 </p>
 
 <h2>Sequential learning</h2>
-<img width="100%" src="Results\seq_training_animation.gif" />
+<img width="100%" height="50%" src="Results\sequential_training_animation.gif" />
 
 <h2>Least-Squares for linear regression</h2>
 <img width="100%" src="Results\OLS.png" />
