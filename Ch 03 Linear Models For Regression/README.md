@@ -14,7 +14,7 @@
 <h2>MLE vs. MAP vs. Bayesian linear model</h2>
 <p align="center">
   <img width="66%" height="66%" src="Results\MLE vs MAP.png" />
-  <img width="33%" src="Results\Bayesian linear model.png" />
+  <img width="33%" src="Results\bayesian linear model.png" />
 </p>
 
 
