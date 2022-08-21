@@ -1,7 +1,7 @@
 # Chapter 3: Linear Models For Regression 
 
 <h2>Sequential frequentist learning</h2>
-<img width="50%" height="50%" src="Results\Sequential freq.gif" />
+<img width="100%" height="50%" src="Results\Sequential freq.gif" />
 
 <h2>MLE vs. MAP vs. Bayesian linear model</h2>
 <p align="center">
