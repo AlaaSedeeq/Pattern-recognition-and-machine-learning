@@ -3,6 +3,9 @@
 <h2>Sequential frequentist learning</h2>
 <img width="70%" height="50%" src="Results\Sequential freq.gif" />
 
+<h2>Least-Squares for linear regression</h2>
+<img width="100%" src="Results\OLS.png" />
+
 <h2>MLE vs. MAP vs. Bayesian linear model</h2>
 <p align="center">
   <img width="66%" height="66%" src="Results\MLE vs MAP.png" />
@@ -20,5 +23,5 @@
 <h2>Bias-Variance Decomposition</h2>
 <img width="50%" height="50%" src="Results\Bias-Var.png" />
 
-<h2>Least-Squares for linear regression</h2>
-<img width="100%" src="Results\OLS.png" />
+<h2>Bayesian Sequential Learning</h2>
+<img width="50%" height="50%" src="Results\Sequential bayesian.png" />
