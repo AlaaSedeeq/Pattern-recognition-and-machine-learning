@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-def create_mesh(X, model, h = 0.01):
+def create_mesh(X, model, h):
     x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
     y_min, y_max = X[:, 1].min() - 1, X[:, 1].max() + 1
     xx, yy = np.meshgrid(np.arange(x_min, x_max, h), np.arange(y_min, y_max, h))
@@ -12,19 +12,19 @@ def create_mesh(X, model, h = 0.01):
     Z = Z.reshape(xx.shape)
     return xx, yy, Z
 
-def plot_DR(X, y, model, title='', ax=None):
+def plot_DR(X, y, model, title='', h=0.01, ax=None):
 
-    xx, yy, Z = create_mesh(X, model)
+    xx, yy, Z = create_mesh(X, model, h)
     
     if ax:
-        ax.contourf(xx, yy, Z, cmap='crest')
+        ax.contourf(xx, yy, Z)
         ax.set_title(title)
         plt.set_xlabel('X1')
         plt.set_ylabel('X2')
     else:
         plt.figure(figsize=(12, 6))
         plt.title(title)
-        plt.contourf(xx, yy, Z, cmap='crest')
+        plt.contourf(xx, yy, Z)
         plt.xlabel('X1')
         plt.ylabel('X2')
     # create scatter plot for samples from each class
@@ -32,13 +32,13 @@ def plot_DR(X, y, model, title='', ax=None):
         # get row indexes for samples with this class
         row_ix = np.where(y == class_value)
         # create scatter of these samples
-        if ax: ax.scatter(X[row_ix, 0], X[row_ix, 1], cmap='Paired')
-        else : plt.scatter(X[row_ix, 0], X[row_ix, 1], cmap='Paired')            
+        if ax: ax.scatter(X[row_ix, 0], X[row_ix, 1])
+        else : plt.scatter(X[row_ix, 0], X[row_ix, 1])            
     if ax: return ax
     plt.show()
     
-def plot_DB(X, y, model, title=''):
-    xx, yy, Z = create_mesh(X, model)
+def plot_DB(X, y, model, title='', h=0.01):
+    xx, yy, Z = create_mesh(X, model, h)
     fig = plt.figure(figsize=(12, 6))
     plt.plot(X[:, 0][y==0], X[:, 1][y==0], 'ro')
     plt.plot(X[:, 0][y==1], X[:, 1][y==1], 'bo')
