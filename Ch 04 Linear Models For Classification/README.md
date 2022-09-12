@@ -20,3 +20,17 @@
       <img width="30%" src="Results\Perceptron epochs.png" 
     </p>
 </ul>
+
+<h2>2) Probabilistic Generative Models</h2>
+<ul>
+  <h3>2.1 Linear Discriminant Analysis (LDA)</h2>
+    <p align="center">
+      <img width="45%" src="Results\LDA DR.png" />
+      <img width="45%" src="Results\LDA DB.png" />
+    </p>
+  <h2>2.2 Quadratic Discriminant Analysis (QDA)</h2>
+    <p align="center">
+      <img width="45%" src="Results\QDA DR.png" />
+      <img width="45%" src="Results\QDA DB.png" />
+      </p>
+</ul>
