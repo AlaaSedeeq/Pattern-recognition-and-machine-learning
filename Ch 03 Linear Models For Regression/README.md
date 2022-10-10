@@ -11,6 +11,7 @@
   <img width="66%" height="66%" src="Results\MLE vs MAP.png" />
   <img width="33%" src="Results\Bayesian linear model.png" />
 </p>
+<img width="99%" height="66%" src="Results\posterior prediction.png" />
 
 <h2>Applying different basis functions</h2>
 </p>
@@ -21,7 +22,7 @@
 </p>
 
 <h2>Bias-Variance Decomposition</h2>
-<img width="50%" height="50%" src="Results\Bias-Var.png" />
+<img width="99%" height="50%" src="Results\Bias-Var.png" />
 
 <h2>Bayesian Sequential Learning</h2>
-<img width="50%" height="50%" src="Results\Sequential bayesian.png" />
+<img width="99%" height="50%" src="Results\Sequential bayesian.png" />
