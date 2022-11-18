@@ -12,6 +12,7 @@
 
 <p>Used packages:
 <ul>
+  <li> <a href="https://pytorch.org/">PyTorch</a>
   <li> <a href="https://numpy.org/">Numpy</a>
   <li> <a href="https://docs.scipy.org/doc/">Scipy</a>
   <li> <a href="https://matplotlib.org/">Matplotlib</a>
