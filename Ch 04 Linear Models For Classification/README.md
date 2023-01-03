@@ -14,7 +14,7 @@
       </p>
 </ul>
 
-<h2>1) Probabilistic Generative Models</h2>
+<h2>1) Probabilistic Discriminative Models</h2>
 <ul>
   <h3>1.1 Logistic Regression</h2>
     <p align="center">
