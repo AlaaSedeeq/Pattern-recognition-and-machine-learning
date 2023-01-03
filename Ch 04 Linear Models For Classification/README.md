@@ -14,6 +14,15 @@
       </p>
 </ul>
 
+<h2>1) Probabilistic Generative Models</h2>
+<ul>
+  <h3>1.1 Logistic Regression</h2>
+    <p align="center">
+      <img width="45%" src="Images\LR_M DR.png" />
+      <img width="45%" src="Images\LR_M DB.png" />
+    </p>
+</ul>
+
 
 <h2>2) Discriminant Function</h2>
 <ul>
