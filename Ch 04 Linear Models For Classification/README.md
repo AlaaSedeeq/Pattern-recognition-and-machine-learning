@@ -1,6 +1,6 @@
 # Chapter 3: Linear Models For Classification 
 
-<h2>1) Probabilistic Generative Models</h2>
+<h2>1) Probabilistic Generative</h2>
 <ul>
   <h3>2.1 Linear Discriminant Analysis (LDA)</h2>
     <p align="center">
@@ -14,7 +14,7 @@
       </p>
 </ul>
 
-<h2>2) Probabilistic Discriminative Models</h2>
+<h2>2) Probabilistic Discriminative</h2>
 <ul>
   <h3>1.1 Logistic Regression</h2>
     <p align="center">
