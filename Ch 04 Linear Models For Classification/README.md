@@ -14,7 +14,7 @@
       </p>
 </ul>
 
-<h2>1) Probabilistic Discriminative Models</h2>
+<h2>2) Probabilistic Discriminative Models</h2>
 <ul>
   <h3>1.1 Logistic Regression</h2>
     <p align="center">
@@ -24,7 +24,7 @@
 </ul>
 
 
-<h2>2) Discriminant Function</h2>
+<h2>3) Discriminant Function</h2>
 <ul>
   <h3>1.1 Least-Squares</h2>
     <p align="center">
